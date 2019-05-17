@@ -1,0 +1,13 @@
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+*.prop text eol=lf
+*.md text eol=lf
+META-INF/** text eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+common/unityfiles/tools/** binary
+addon/** binary
+arm/** binary
+arm64/** binary
+x86/** binary
+x64/** binary

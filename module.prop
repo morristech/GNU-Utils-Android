@@ -1,0 +1,6 @@
+id=gnu
+name=GNU Utils For Android
+version=v1.0
+versionCode=1
+author=zackptg5
+description=Latest of various GNU binaries for android (Bash, Coreutils, Sed)
