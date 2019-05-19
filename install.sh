@@ -73,6 +73,7 @@ set_permissions() {
   [ -d /system/xbin ] && BIN=/system/xbin || BIN=/system/bin
   if ! $MAGISK || $SYSOVER; then BAKSYM=true; else BAKSYM=false; fi
 
+  set_perm $UNITY$BIN/awk 0 2000 0755
   [ -d "/system/xbin" -a -f "/system/bin/bash" ] && set_perm $UNITY/system/bin/bash 0 2000 0755 || set_perm $UNITY/system/xbin/bash 0 2000 0755
   set_perm $UNITY$BIN/coreutils 0 2000 0755
   set_perm $UNITY$BIN/sed 0 2000 0755
