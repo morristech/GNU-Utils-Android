@@ -6,7 +6,7 @@ This module installs the latest of various GNU binaries I've cross compiled for 
 * Cpio (v2.12)
 * Diffutils (v3.7) - this includes cmp, diff, diff3, and sdiff
 * Ed (v1.15)
-* Findutils (v4.6.0) - this includes find, bigram, code, frcode, locate, and xargs
+* Findutils (v4.6.0) - this includes find, bigram, code, frcode, locate, updatedb, and xargs
 * Gawk (Awk) (v5.0.0)
 * Grep (v3.3) - also includes egrep and fgrep
 * Gzip (v1.10) - also includes gunzip and gzexe
