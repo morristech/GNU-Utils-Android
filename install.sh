@@ -73,10 +73,10 @@ set_permissions() {
   [ -d /system/xbin ] && BIN=/system/xbin || BIN=/system/bin
   if ! $MAGISK || $SYSOVER; then BAKSYM=true; else BAKSYM=false; fi
 
-  set_perm $UNITY$BIN/awk 0 2000 0755
+   for i in ${BINARIES}; do
+    set_perm $UNITY$BIN/$i 0 2000 0755
+  done
   [ -d "/system/xbin" -a -f "/system/bin/bash" ] && set_perm $UNITY/system/bin/bash 0 2000 0755 || set_perm $UNITY/system/xbin/bash 0 2000 0755
-  set_perm $UNITY$BIN/coreutils 0 2000 0755
-  set_perm $UNITY$BIN/sed 0 2000 0755
   # Generate symlinks (but don't overwrite oem binaries)
   cd $UNITY$BIN
   $BAKSYM && local FLAGS="-sfb" || local FLAGS="-sf"
