@@ -14,7 +14,7 @@ This module installs the latest of various GNU binaries I've cross compiled for 
 * Patch (v2.7.6)
 * Sed (v4.7)
 * Tar (v1.32)
-Arm/arm64 compiled with linaro, x86/x64 compiled with GNU gcc
+These are all static binaries. Arm/arm64 compiled with linaro, x86/x64 compiled with GNU gcc
 
 ## Compatibility
 * Android Jellybean+
