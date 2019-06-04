@@ -21,6 +21,10 @@ These are all static binaries. Arm/arm64 compiled with linaro, x86/x64 compiled 
 * All root solutions
 
 ## Change Log
+
+### v2.1 - 6.4.2019
+* Added back missing bash files
+
 ### v2.0 - 5.29.2019
 * Added bc
 * Added cpio

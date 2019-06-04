@@ -1,0 +1,6 @@
+# /system/etc/bash/bashrc
+#
+# This is the user file for bashrc sourced by all interactive bash shells
+# Customize however you want
+
+[ -f "/sdcard/.bashrc" ] && . /sdcard/.bashrc
