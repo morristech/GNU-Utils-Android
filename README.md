@@ -16,6 +16,8 @@ This module installs the latest of various GNU binaries I've cross compiled for 
 * Tar (v1.32)
 These are all static binaries. Arm/arm64 compiled with linaro, x86/x64 compiled with GNU gcc
 
+[More details in support thread](https://forum.xda-developers.com/android/software-hacking/mods-zackptg5-s-misc-projects-t3881164).
+
 ## Compatibility
 * Android Jellybean+
 * All root solutions
